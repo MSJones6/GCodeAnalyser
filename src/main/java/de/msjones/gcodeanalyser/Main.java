@@ -1,4 +1,4 @@
-package com.msjones.gcodeanalyser;
+package de.msjones.gcodeanalyser;
 
 import java.io.File;
 import java.io.FileNotFoundException;

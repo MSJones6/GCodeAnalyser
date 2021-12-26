@@ -1,6 +1,6 @@
-package com.msjones.gcodeanalyser.gcode;
+package de.msjones.gcodeanalyser.gcode;
 
-import com.msjones.gcodeanalyser.GCodeProcessor;
+import de.msjones.gcodeanalyser.GCodeProcessor;
 
 public class G20 extends AGCode {
     public G20(GCodeProcessor processor) {

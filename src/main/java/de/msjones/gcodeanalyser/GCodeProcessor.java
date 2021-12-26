@@ -1,4 +1,4 @@
-package com.msjones.gcodeanalyser;
+package de.msjones.gcodeanalyser;
 
 import javax.vecmath.Point3d;
 import java.lang.reflect.Constructor;

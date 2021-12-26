@@ -1,22 +1,22 @@
-package com.msjones.gcodeanalyser.gcode;
+package de.msjones.gcodeanalyser.gcode;
 
-import com.msjones.gcodeanalyser.GCodeProcessor;
+import de.msjones.gcodeanalyser.GCodeProcessor;
 
 import javax.vecmath.Point3d;
 import java.security.InvalidParameterException;
 
 /**
- * Handles lines starting with G1.
+ * Handles lines starting with G0.
  * <p>
- * e.g.: G1 Xnnn Ynnn Znnn Ennn Fnnn Snnn
+ * e.g.: G0 Xnnn Ynnn Znnn Ennn Fnnn Snnn
  */
-public class G1 extends AGCode {
+public class G0 extends AGCode {
     Point3d destinationPoint;
     Double e;
     double f;
     double s;
 
-    public G1(GCodeProcessor processor) {
+    public G0(GCodeProcessor processor) {
         super(processor);
     }
 
